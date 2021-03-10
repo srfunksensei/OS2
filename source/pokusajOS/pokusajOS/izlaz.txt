@@ -1,0 +1,141 @@
+nit2: montiranje particije p2
+nit1: montira se particije p1
+nit2: particiji je dodeljeno slovo: A
+nit1: particija 1 namontirana i dodeljeno slovo je: B
+nit2: formatira particiju p2
+nit1: pocinje formatiranje particije 1
+nit2: zavrseno formatiranje particije p2
+nit2: cd p2:\
+nit2: tekuci direktorijum: A:\
+nit1: formatiranje particije 1 zavrseno; rezultat: 1
+nit1: cd p1:\
+nit1: tekuci direktorijum: B:\
+nit1: kreira fajl p1:\fajl1.dat
+nit1: uspesno kreiranje fajla
+nit1: punjenje fajla fajl1.dat
+nit1: fajl1 u root direktorijumu napunjen i zatvoren
+nit1: salje signal niti 2
+nit1: ceka signal niti2
+nit2: cita sadrzaj root direktorijuma particije p1
+nit2: broj procitanih ulaza: 2
+B:      .  0
+fajl1.dat?  0
+nit2: otvara fajl p1:\fajl1.dat za citanje
+nit1: kreira direktorijum dir1 u korjenom direktorijumu
+nit2: otvoren fajl p1:\fajl1.dat
+nit2: otvara fajl p2:\fajl3.dat za upis
+nit1: rezultat kreiranja dir1 je: 1
+nit1: cita sadrzaj root direktorijuma
+nit1: broj procitanih ulaza: 2
+dir1.dir?  0
+B:.  0
+nit1: kreira direktorijum dir1\dir11
+nit2: otvoren fajl p2:\fajl3.dat
+nit2: pocinje kopiranje fajla fajl1.dat sa p1 u fajl3.dat na p2
+nit3: cd p1:\
+nit2: zavrsen prenos; broj gresaka: 0
+nit3: rezultat cd p1:\ je 1
+nit2: zatvaranje fajlova
+nit3: otvara fajl p1:\fajl1.dat za citanje
+nit2: zatvoreni fajlovi
+nit3: otvoren fajl p1:\fajl1.dat
+nit3: otvara fajl p1:\fajl3.dat za upis
+nit1: uspesno kreiranje direktorijuma
+nit1: cd dir1
+nit1: uspesna promena tekuceg direktorijuma, pwd: B:\dir1
+nit1: otvaranje fajla ..\fajl1.dat za citanje
+nit3: otvoren fajl p1:\fajl3.dat
+nit1: uspesno otvaranje fajla
+nit3: pocinje kopiranja fajl1.dat -> fajl3.dat
+nit1: otvaranje fajla dir11\fajl11.dat za upis
+nit3: zavrseno kopiranje; zatvaraju se fajlovi; broj gresaka: 0
+nit3: zatvoreni fajlovi
+nit1: uspesno otvaranje fajla
+nit1: kopiranje iz fajl1.dat u fajl11.dat
+nit1: zavrseno kopiranje, zatvaranje fajlova
+nit1: zatvoreni fajlovi
+nit1: otvaranje fajla dir11\fajl11.dat za citanje i upis
+nit1: uspesno otvaranje fajla
+nit1: otvaranje fajla dir11\fajl12.dat za upis
+nit1: uspesno otvaranje fajla
+nit1: pozicioniranje na sredinu fajla fajl11.dat
+nit1: uspesno pozicioniranje
+nit1: kopiranje druge polovine fajla fajl11.dat u fajl12.dat
+nit1: zavrseno kopiranje i zatvoren fajl fajl12.dat
+nit1: pozicioniranje na sredinu fajla fajl11.dat
+nit1: uspesno pozicioniranje
+nit1: odsecanje druge polovine fajla fajl11.dat
+nit1: uspesno odsecanje
+nit1: zatvoren fajl fajl11.dat
+nit1: otvaranje fajla dir11\fajl11.dat za citanje
+nit1: uspesno otvaranje fajla
+nit1: otvaranje fajla dir11\fajl12.dat za citanje i upis
+nit1: uspesno otvaranje fajla
+nit1: pozicionianje na pocetak fajla fajl12.dat
+nit1: uspesno pozicioniranje
+nit1: otvaranje fajla fajl2.dat za upis
+nit1: uspesno otvaranje fajla
+nit1: kopiranje fajla fajl11.dat u fajl2.dat
+nit1: dopisivanje sadrzaja fajla fajl12.dat na kraj fajla fajl2.dat
+nit1: zavrseno kopiranje, zatvoreni fajlovi
+nit3: otvara fajl p1:\dir1\fajl2.dat za upis
+nit3: otvoren fajl p1:\dir1\fajl2.dat
+nit3: pet puta popunjavanje fajla fajl2.dat nulama
+nit1: otvaranje fajla fajl2.dat za citanje
+nit2: otvaranje fajla p1:\dir1\fajl2.dat za upis i citanje
+nit3: pozicioniranje na pocetak fajla fajl2
+nit3: uspesno pozicioniranje
+nit3: popunjavanje fajla nulama
+nit3: pozicioniranje na pocetak fajla fajl2
+nit3: uspesno pozicioniranje
+nit3: popunjavanje fajla nulama
+nit3: pozicioniranje na pocetak fajla fajl2
+nit3: uspesno pozicioniranje
+nit3: popunjavanje fajla nulama
+nit3: pozicioniranje na pocetak fajla fajl2
+nit3: uspesno pozicioniranje
+nit3: popunjavanje fajla nulama
+nit3: pozicioniranje na pocetak fajla fajl2
+nit3: uspesno pozicioniranje
+nit3: popunjavanje fajla nulama
+nit3: zatvaranje fajla2.dat
+nit3: zatvoren fajl2.dat
+nit2: otvoren fajl p1:\dir1\fajl2.dat
+nit2: pozicioniranje na pocetak fajla fajl2.dat
+nit2: uspesno pozicioniranje
+nit2: otvaranje fajla p1:\dir1\dir11\fajl11.dat za citanje
+nit2: otvoren fajl p1:\dir1\dir11\fajl11.dat
+nit2: otvaranje fajla p1:\dir1\dir11\fajl12.dat za citanje
+nit2: otvoren fajl p1:\dir1\dir11\fajl12.dat
+nit2: spajanje fajlova fajl11.dat i fajl12.dat u fajl2.dat (prosto nadovezivanje
+ u navedenom redosledu)
+nit2: zatvaranje sva tri fajla
+nit2: zatvoreni svi fajlovi
+nit1: uspesno otvaranje fajla
+nit3: otvara fajl p1:\dir1\fajl2.dat za citanje
+nit1: fajl2.dat zatvoren
+nit3: otvoren fajl p1:\dir1\fajl2.dat
+nit1: pokusaj brisanja direktorijuma dir11 koji nije prazan
+nit3: pocinje citanje iza fajla fajl2.dat i upis u izlazni fajl u os domacinu
+nit2: otvara fajl p1:\dir1\fajl2.dat za upis i citanje
+nit3: zatvaranje fajla fajl2.dat
+nit3: KRAJ niti 3!
+nit1: neuspesno brisanje (korektno ponasanje
+nit2: otvoren fajl p1:\dir1\fajl2.dat
+nit1: brisanje fajla dat11\fajl11.dat
+nit2: pozicioniranje na sredinu1 fajla fajl2.dat
+nit2: uspesno pozicioniranje
+nit2: upis nula u drugu polovinu fajla fajl2.dat
+nit2: zatvaranje fajla fajl2.dat
+nit2: zatvoren fajl fajl2.dat
+nit1: uspesno brisanje
+nit1: brisanje fajla dat11\fajl12.dat
+nit1: uspesno brisanje
+nit1: pokusaj brisanja direktorijuma dir11 koji je prazan
+nit1: uspesno brisanje
+nit1: kraj niti 1
+nit2: demontiranje particije p1
+nit2: demontiranje particije p2
+nit2: kraj
+kraj
+Press any key to continue . . .
